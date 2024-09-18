@@ -1,0 +1,42 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore credentials
+credentials/
+
+# Ignore virtual environment directories
+.venv/
+venv/
+ENV/
+env/
+.env/
+.venv
+
+# Ignore environment variable files
+.env
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore instance folder
+instance/
+
+# Ignore migrations folder
+migrations/
+
+# Ignore specific configuration or secret files
+# config.py
