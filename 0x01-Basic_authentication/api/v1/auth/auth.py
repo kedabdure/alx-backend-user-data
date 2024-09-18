@@ -13,6 +13,12 @@ class Auth:
     def require_auth(self, path: str, excluded_paths: List[str]) -> bool:
         """ Method for validating if endpoint requires auth
         """
+        if path is None or excluded_paths is None or excluded_paths == []:
+            return True
+
+        if path in excluded_paths:
+            return False
+
         # if path is None or excluded_paths is None or excluded_paths == []:
         #     return True
 
