@@ -50,3 +50,9 @@ class Auth:
     def current_user(self, request=None) -> User:
         """ Validates current user """
         return None
+
+
+class BasicAuth(Auth):
+    """ Class for Basic Authentication
+    """
+    pass
